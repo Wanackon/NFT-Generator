@@ -1,0 +1,31 @@
+{
+  "name": "hashlips_art_engine",
+  "version": "1.0.0",
+  "description": "HashLips Art Engine is a tool used to create multiple different instances of artworks based on provided layers.",
+  "main": "index.js",
+  "bin": "index.js",
+  "pkg": {
+    "assets": [
+      "layers/**/*"
+    ],
+    "scripts": [
+      "src/main.js",
+      "src/config.js"
+    ],
+    "outputPath": "dist"
+  },
+  "scripts": {
+    "build": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Eugene Botha (HashLips)",
+  "license": "MIT",
+  "dependencies": {
+    "blueimp-load-image": "^5.15.0",
+    "canvas": "^2.8.0",
+    "fabric": "^4.6.0",
+    "html": "^1.0.0",
+    "jsdom": "^17.0.0",
+    "sha1": "^1.1.1"
+  }
+}
