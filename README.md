@@ -1,5 +1,6 @@
 # NFT-Generator
 Customizable NFT generator app
+
 Use 
 ```sh
 yarn install
